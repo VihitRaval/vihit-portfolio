@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Services — Vihit Raval</title>
+    <meta name="description" content="Services offered by Vihit Raval: web development, code review, consultation, custom AI and edge solutions." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">
+          <span class="brand-logo" aria-hidden="true"></span>
+          <span class="brand-name">Vihit Raval</span>
+        </a>
+        <nav>
+          <button class="nav-toggle" data-nav-toggle aria-label="Toggle navigation">☰</button>
+          <div class="nav-links" data-nav-links>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html" class="nav-cta">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="headline">Services</h1>
+          <p class="subhead">Straightforward engagement models with tangible outcomes.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container card-grid">
+          <div class="card">
+            <h3>Web Development</h3>
+            <p>End-to-end web apps: design systems, APIs, auth, and deployments.</p>
+            <ul class="list" style="margin-top:8px">
+              <li>SPA/SSR with React/Next.js</li>
+              <li>Secure auth, testing, CI/CD</li>
+              <li>Performance & accessibility</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Code Review</h3>
+            <p>Actionable reviews with attention to correctness, security, and scalability.</p>
+            <ul class="list" style="margin-top:8px">
+              <li>Security and perf checks</li>
+              <li>Architecture feedback</li>
+              <li>Refactor guidance</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Project Consultation</h3>
+            <p>Roadmaps, proof-of-concepts, and technical due diligence.</p>
+            <ul class="list" style="margin-top:8px">
+              <li>Architecture & planning</li>
+              <li>Vendor/tool selection</li>
+              <li>POC and pilot builds</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Custom AI & Edge Solutions</h3>
+            <p>Computer vision and on-device ML tailored to your constraints.</p>
+            <ul class="list" style="margin-top:8px">
+              <li>Model integration & optimization</li>
+              <li>Raspberry Pi/NVIDIA Jetson</li>
+              <li>Offline-first, low-latency systems</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small class="muted">© <span id="year"></span> Vihit Raval. All rights reserved.</small>
+        <div class="socials">
+          <a href="https://github.com/VihitRaval" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.freelancer.com/u/vihitraval" target="_blank" rel="noopener">Freelancer</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
+
+

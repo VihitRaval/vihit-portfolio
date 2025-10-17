@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio — Vihit Raval</title>
+    <meta name="description" content="Selected work by Vihit Raval: SignSpeak, government tech research, demos, and certifications." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">
+          <span class="brand-logo" aria-hidden="true"></span>
+          <span class="brand-name">Vihit Raval</span>
+        </a>
+        <nav>
+          <button class="nav-toggle" data-nav-toggle aria-label="Toggle navigation">☰</button>
+          <div class="nav-links" data-nav-links>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html" class="nav-cta">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="headline">Portfolio</h1>
+          <p class="subhead">AI-driven apps, computer vision, and modern web builds.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container card-grid">
+          <article class="card">
+            <h3>SignSpeak AI — Assistive Computer Vision</h3>
+            <p>Real-time sign language to text converter using OpenCV and MediaPipe gesture detection. Designed for accessibility with low-latency inference.</p>
+            <div class="cta-row" style="margin-top:10px">
+              <a class="btn" href="https://github.com/VihitRaval/SignSpeak" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>VIXOR — Personal AI Assistant</h3>
+            <p>JARVIS-inspired smart assistant featuring text and voice interaction built in Python with GPT integration.</p>
+            <div class="cta-row" style="margin-top:10px">
+              <a class="btn" href="https://github.com/VihitRaval" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>AI Resume Analyzer (Flask + GPT)</h3>
+            <p>NLP-based analyzer that suggests job roles and improvements for users, powered by GPT APIs.</p>
+            <div class="cta-row" style="margin-top:10px">
+              <a class="btn" href="https://github.com/VihitRaval" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>GovTech Research — Edge Analytics</h3>
+            <p>Research prototypes for smart-city edge analytics with privacy-preserving video processing.</p>
+            <div class="cta-row" style="margin-top:10px">
+              <a class="btn" href="https://github.com/vihitraval" target="_blank" rel="noopener">GitHub</a>
+              <a class="btn" href="#" onclick="alert('Demo available on request'); return false;">Request Demo</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Full‑Stack Web Apps</h3>
+            <p>Production-grade apps featuring authentication, dashboards, and resilient APIs.</p>
+            <div class="cta-row" style="margin-top:10px">
+              <a class="btn" href="https://github.com/vihitraval" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Certificates</h2>
+            <span class="section-sub">Recent highlights</span>
+          </div>
+          <div class="card-grid">
+            <div class="card">
+              <h3>Finalist — AI for Good Challenge</h3>
+              <p class="muted">Assistive Technology</p>
+            </div>
+            <div class="card">
+              <h3>Google Cloud Certified</h3>
+              <p class="muted">Core Infrastructure</p>
+            </div>
+            <div class="card">
+              <h3>Top Projects</h3>
+              <p class="muted">SignSpeak AI, VIXOR Assistant, Resume Analyzer</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small class="muted">© <span id="year"></span> Vihit Raval. All rights reserved.</small>
+        <div class="socials">
+          <a href="https://github.com/VihitRaval" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.freelancer.com/u/vihitraval" target="_blank" rel="noopener">Freelancer</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
+
+
